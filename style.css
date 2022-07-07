@@ -4,7 +4,7 @@ body{
 }
 .bg-image{
     background-image: url("donate-today-main/images/donation13.jpg");
-    height: 500px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     filter: blur(2px);
@@ -22,6 +22,10 @@ body{
     text-align: center;
     color: white;
     
+}
+#bg{
+    line-height: 1.2;
+    font-size: 18px;
 }
 .button{
     text-decoration: none;
@@ -53,6 +57,8 @@ h2{
     text-align: center;
     padding-top: 100px;
     padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .amount{
     display: flex;
@@ -78,10 +84,10 @@ h2{
     background-color: rgb(202, 226, 241);
 }
 #p2{
-    background-color: rgb(238, 202, 241);
+    background-color: rgb(162, 207, 236);
 }
 #p3{
-    background-color: rgb(241, 227, 202);
+    background-color: rgb(119, 170, 199);
 }
 #ref{
     border: 2px solid blue;
@@ -117,4 +123,58 @@ input {
   }
   .pic{
     border-radius: 10px;
+  }
+  
+  .dd{
+    width: 900px;
+    height: 180px;
+    margin: 60px 180px 30px 240px;
+    background-color: rgb(192, 211, 233);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .form-box{
+    padding: 0px;
+    border-radius: 5px;
+    background: #c0baba ;
+  }
+  .form-box input{
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #c0baba;
+  }
+  .form-box button{
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #4769d8;
+  }
+  .footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  #foot{
+    color: rgb(236, 32, 83);
+    
+  }
+  #reg{
+    background-image: linear-gradient(rgb(44, 248, 248), rgb(2, 2, 151));
+    background-size: cover;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 60px;
+    margin: 0;
+    align-items: center;
+    border: 0;
   }
