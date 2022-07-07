@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.bg-image{
+    background-image: url("donate-today-main/images/donation13.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+}
+.bg-text{
+    
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 10px;
+    line-height: 0.6;
+    position: absolute;
+    text-align: center;
+    color: white;
+    
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, blue);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+}
+.button1{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue, blue);
+    padding: 10px 40px;
+    border-radius: 10px;
+    color: white;
+}
+h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+h2{
+    font-size: 30px;
+}
+.aaa{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.ccc{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.amount{
+    display: flex;
+    text-align: center;
+    padding-left: 410px;
+    padding-right: 410px;
+}
+.plan{
+    display: flex;
+    padding-left: 140px;
+}
+.tk{
+    padding: 25px;
+    
+}
+.p{
+    height: 250px;
+    width: 280px;
+    padding: 40px 10px 20px 10px;
+    margin: 20px;
+}
+#p1{
+    background-color: rgb(202, 226, 241);
+}
+#p2{
+    background-color: rgb(238, 202, 241);
+}
+#p3{
+    background-color: rgb(241, 227, 202);
+}
+#ref{
+    border: 2px solid blue;
+    color: blue;
+    background-color: rgb(194, 228, 241);
+}
+.input{
+    padding-top: 20px;
+}
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: blue;
+    width: 600px;
+    
+  }
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .flex{
+    display: flex;
+  }
+  .fff1{
+    padding-left: 150px;
+    padding-right:100px;
+  }
+  .fff2{
+    padding-left: 30px;
+    padding-right:150px;
+  }
+  .pic{
+    border-radius: 10px;
+  }
